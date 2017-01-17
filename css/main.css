@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+}
+
+#container {
+	width: 100%;
+	padding: 0;
+}
+
+#wrapper {
+	width: 60%;
+	height: 500px;
+	margin: 0 auto; /* this will make the div auto center*/
+	background-color: #EEE;
+	text-align: center;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+li:nth-child(even) { /*every even one will change the color */
+	background-color: #DDD;
+}
+
+li:nth-child(odd) {
+	background-color: #EEE;
+}
+
